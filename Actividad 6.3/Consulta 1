@@ -1,0 +1,2 @@
+for $libro in doc ("DB_Libros.xml")//Libros/libro
+return $libro/Titulo
